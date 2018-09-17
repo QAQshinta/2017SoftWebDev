@@ -1,12 +1,34 @@
-.bigtitle{
+h2.bigtitle{
     text-align:center;
     font-family: 微软雅黑;
     font-size: 30px;
     color:green;
+}
+h3.bigtitle{
+    text-align:center;
+    font-family: 黑体;
+    font-size: 50px;
+    color:pink;
+}
+p.bigtitle{
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    text-indent: 30px;
 }
 .p1{
     font-size: 20px;
     color: blue;
     text-decoration: underline;
     text-indent: 30px;
+}
+strong{
+    color: blue;
+}
+/*后代选择器*/
+p strong{
+    color: red;
+}
+h1,h2,h3,h4,h5,h6,p,body{
+    font-family: 'Courier New','Courier New', Courier, monospace;
 }
